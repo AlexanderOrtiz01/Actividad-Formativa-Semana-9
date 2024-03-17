@@ -1,0 +1,104 @@
+#titulo1{
+    font-family: Arial; 
+    text-align: center; 
+    color: #ffffff;
+}
+
+#cajaAzul{
+    background-color: #232c94;
+    height: auto; 
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+    padding-bottom: 5%;
+
+}
+
+label{
+    font-family: Arial; 
+    color: #ffffff;
+    display: block;
+}
+
+#DivNombreApellidos{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#DivSedeModalidad{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding-left: 10%;
+    padding-right: 6%;
+}
+
+input {
+    height: 30px;
+    width: 100%;
+    font-size: 100%;
+  }
+
+#sedeSelect {
+    font-size: 150%;
+    width: 124%;
+    height: 100%;
+}
+
+#modalidadSelect {
+    font-size: 150%;
+    width: 94%;
+    height: 100%;
+}
+
+#carreraSelect {
+    font-size: 150%;
+    width: 94%;
+    height: 100%;
+}
+
+#contactoSelect {
+    font-size: 150%;
+    width: 315%;
+    height: 100%;
+}
+
+#CarreraContacto{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding-left: 10%;
+    padding-right: 35%;
+}
+
+#boton {
+    display: block;
+    margin: 0 auto;
+    font-family: Arial; 
+    font-size: 150%;
+    padding: 3%;
+}
+
+#DivBoton {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#listaEnDondeVanLosDatos {
+    font-family: Arial; 
+    color: #2f2f2f;
+}
+
+#divListaDatos {
+    background-color: #ececec;
+    height: auto; 
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}

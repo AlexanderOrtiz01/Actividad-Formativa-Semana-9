@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 6</title>
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style ejercicio 6.css">
+</head>
+<body>
+    <h1 style="font-family: Arial; text-align: center;">Ejercicio 6: Haciendo uso de AJAX recrea el siguiente formulario que al dar
+        click en Solicitar información vaya haciendo una lista con los datos que se van
+        ingresando en la misma página.</h1>
+    
+    <!--Div azul-->
+    <div id="cajaAzul">
+
+        <!--Titulo-->
+        <h1 id="titulo1">
+            Consulta sobre tu carrera de interés 
+            para el Ciclo 1 - 2024
+        </h1>
+        <form id="formulario">
+        <!--inputs-->
+        <div id="DivNombreApellidos">
+            <div><label>Nombres*</label>
+            <input type="text" name="nombre"></div>
+            
+            <div><label>Apellidos*</label>
+            <input type="text" name="apellidos"></div>
+            
+        </div>
+        <br>
+        <div id="DivNombreApellidos">
+            <div><label>Correo*</label>
+            <input type="email" name="correo"></div>
+            
+            <div><label>Teléfono/Celular*</label>
+            <input type="tel" name="telefono"></div>
+            
+        </div>
+        <br>
+        <div id="DivSedeModalidad">
+            <div>
+                <label>Sede</label>
+                <select id="sedeSelect" name="sede">
+                    <option value="SAN MIGUEL">SAN MIGUEL</option>
+                    <option value="USULUTAN">USULUTAN</option>
+                </select>
+        </div>
+            
+        <div>
+            <label>Modalidad</label>
+                <select id="modalidadSelect" name="modalidad">
+                    <option value="VIRTUAL">VIRTUAL</option>
+                    <option value="PRESENCIAL">PRESENCIAL</option>
+                    <option value="SEMIPRESENCIAL">SEMIPRESENCIAL</option>
+                </select>
+        </div>
+            
+        </div>
+        <br>
+        <div id="CarreraContacto">
+            <div>
+                <br><br>
+                <label>Carrera</label>
+                <select id="carreraSelect" name="carrera">
+                    <option value="Doctorado en Innovación y Tecnologías Aplicadas a la Educación">Doctorado en Innovación y Tecnologías Aplicadas a la Educación</option>
+                    <option value="Ingeniería en Desarrollo de Software">Ingeniería en Desarrollo de Software</option>
+                    <option value="Ingeniería en Inteligencia de Nego">Ingeniería en Inteligencia de Negocios</option>
+                    <option value="Ingeniería en Sistemas y Redes Informáticas">Ingeniería en Sistemas y Redes Informáticas</option>
+                    <option value="Ingenrieria Industial">Ingenrieria Industial</option>
+                    <option value="Licenciatura en Administración de Empresas">Licenciatura en Administración de Empresas</option>
+                    <option value="Licenciatura en Ciencias Jurídicas">Licenciatura en Ciencias Jurídicas</option>
+                    <option value="Licenciatura en Marketing y Negocios Digitales">Licenciatura en Marketing y Negocios Digitales</option>
+                    <option value="Licenciatura en Relaciones y Negocios Internacionales">Licenciatura en Relaciones y Negocios Internacionales</option>
+                    <option value="Maestría en Derecho Constitucional">Maestría en Derecho Constitucional</option>
+                    <option value="Maestría en Derecho de Familia">Maestría en Derecho de Familia</option>
+                    <option value="Maestría en Derecho Penal">Maestría en Derecho Penal</option>
+                    <option value="Maestría en Dirección Estratégica de Empresas">Maestría en Dirección Estratégica de Empresas</option>
+                    <option value="Maestría en Docencia con Enfoque en Entornos Virtuales de Aprendizaje">Maestría en Docencia con Enfoque en Entornos Virtuales de Aprendizaje</option>
+                    <option value="Técnico en Idioma Inglés">Técnico en Idioma Inglés</option>
+                    <option value="Técnico en Ingeniería en Sistemas y Redes Informáticas">Técnico en Ingeniería en Sistemas y Redes Informáticas</option>
+                    <option value="Técnico en Ingeniería Industrial">Técnico en Ingeniería Industrial</option>
+                    <option value="Técnico en Mercadeo y Ventas">Técnico en Mercadeo y Ventas</option>
+                  </select>
+            </div>
+                  
+        
+            
+            <div>
+                <label>Método de Contacto</label>
+                    <select id="contactoSelect" name="contacto">
+                        <option value="whatsapp">Whatsapp</option>
+                        <option value="correo">Correo Electrónico</option>
+                        <option value="cualquiera">Cualquiera</option>
+                        <option value="llamada">Llamada Telefónica</option>
+                    </select>
+            </div>
+        </div>
+
+        <br><br><br><br><br><br>
+        <div id="DivBoton">
+        <button id="boton">Solicitar información</button>
+        </div>
+    </div>
+    </form>
+    
+    <div id="divListaDatos"><ul id="listaEnDondeVanLosDatos"></ul></div>
+    
+       
+    <script src="script 6.js"></script>
+    
+</body>
+</html>
